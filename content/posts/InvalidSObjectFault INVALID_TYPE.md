@@ -4,8 +4,6 @@ date: 2021-06-23T00:00:00+00:00
 draft: false
 ---
 
-_Creating this entry as the only useful article I found to debug this issue was a comment, on a blog post, from 2013 (Link below)_
-
 ## Scenario: 
 Use the Partner API to update a custom field, on a custom object, installed via a managed package.
 
@@ -37,6 +35,9 @@ While in TEST/UAT scenarios these are the previous Integration User + Permission
 In Production, for any user to access the managed package - a user must have a license. In retrospect, this clearly applies to Integration users.
 
 ---
+### Appendix
+_Creating this entry as the only useful article I found to debug this issue was a comment, on a blog post, from 2013 (Link below)_
+
 Origional blog post from 2013:
 [http://sforcehacks.blogspot.com/2013/11/invalidsobjectfault-invalidtype.html](http://sforcehacks.blogspot.com/2013/11/invalidsobjectfault-invalidtype.html)
 
