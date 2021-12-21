@@ -19,10 +19,10 @@ Test</description>
     
     <item>
       <title>InvalidSObjectFault INVALID_TYPE - Managed Package - Partner API - License Issue</title>
-      <link>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</link>
+      <link>https://nhall97@.github.io/posts/invalidsobjectfault-invalid_type/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</guid>
+      <guid>https://nhall97@.github.io/posts/invalidsobjectfault-invalid_type/</guid>
       <description>Creating this entry as the only useful article I found to debug this issue was a comment, on a blog post, from 2013 (Link below)
 Scenario: Use the Partner API to update a custom field, on a custom object, installed via a managed package.
 While the integration flow worked correctly in developer sandboxes - Production flow was throwing an error that had not been seen in testing:
