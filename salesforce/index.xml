@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Salesforces on My New Hugo Site</title><link>https://nhall97@.github.io/salesforce/</link><description>Recent content in Salesforces on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nhall97@.github.io/salesforce/index.xml" rel="self" type="application/rss+xml"/><item><title>InvalidSObjectFault INVALID_TYPE - Managed Package - Partner API - License Issue</title><link>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</link><pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate><guid>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</guid><description>Creating this entry as the only useful article I found to debug this issue was a comment, on a blog post, from 2013 (Link below)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Salesforces on My New Hugo Site</title>
+    <link>https://nhall97@.github.io/salesforce/</link>
+    <description>Recent content in Salesforces on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nhall97@.github.io/salesforce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>InvalidSObjectFault INVALID_TYPE - Managed Package - Partner API - License Issue</title>
+      <link>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nhall97@.github.io/salesforce/invalidsobjectfault-invalid_type/</guid>
+      <description>Creating this entry as the only useful article I found to debug this issue was a comment, on a blog post, from 2013 (Link below)
 Scenario: Use the Partner API to update a custom field, on a custom object, installed via a managed package.
 While the integration flow worked correctly in developer sandboxes - Production flow was throwing an error that had not been seen in testing:
-[InvalidSObjectFault [ApiQueryFault [ApiFault exceptionCode=&amp;#39;INVALID_TYPE&amp;#39; exceptionMessage=&amp;#39;CUSTOMFIELD_C FROM MANAGED_PACKAGE_OBJECT__C WHERE EXTIDFIELD__C ERROR at Row:1:Column:41 sObject type &amp;#39;MANAGED_PACKAGE_OBJECT__C&amp;#39; is not supported.</description></item></channel></rss>
+[InvalidSObjectFault [ApiQueryFault [ApiFault exceptionCode=&amp;#39;INVALID_TYPE&amp;#39; exceptionMessage=&amp;#39;CUSTOMFIELD_C FROM MANAGED_PACKAGE_OBJECT__C WHERE EXTIDFIELD__C ERROR at Row:1:Column:41 sObject type &amp;#39;MANAGED_PACKAGE_OBJECT__C&amp;#39; is not supported.</description>
+    </item>
+    
+  </channel>
+</rss>
